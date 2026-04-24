@@ -14,7 +14,7 @@ while True:
     
     elif producto == 'ver':
         if len(carrito) == 0:
-            print("El carrito está vacío.")
+            print("El carrito esta vacio.")
         else:
             print(f"Tu carrito actual: {carrito}")
             
