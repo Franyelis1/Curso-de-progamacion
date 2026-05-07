@@ -1,0 +1,29 @@
+Ejercicio18 HTML 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscador con Sugerencias</title>
+</head>
+<body>
+
+    <h2>Buscador de Repuestos</h2>
+
+    <label for="buscar">Busca tu pieza:</label>
+    
+    <input type="search" id="buscar" name="buscar" list="repuestos-moto">
+
+    
+    <datalist id="repuestos-moto">
+        <option value="Cauchos">
+        <option value="Pastillas de freno">
+        <option value="Cadena de transmisión">
+        <option value="Bujías">
+        <option value="Filtro de aceite">
+    </datalist>
+
+    <button type="button">Buscar</button>
+
+</body>
+</html>

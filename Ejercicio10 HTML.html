@@ -1,0 +1,40 @@
+Ejercicio10 HTML
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta Sencilla</title>
+</head>
+<body>
+
+    <h2>Encuesta de Satisfacción</h2>
+
+    <form>
+        
+        <p>Que te parecio el curso?</p>
+        <input type="radio" name="calificacion" value="excelente"> Excelente<br>
+        <input type="radio" name="calificacion" value="bueno"> Bueno<br>
+        <input type="radio" name="calificacion" value="regular"> Regular
+
+       
+        <p>Que temas te gustaron más? (Puedes marcar varios)</p>
+        <input type="checkbox" name="tema" value="html"> HTML Básico<br>
+        <input type="checkbox" name="tema" value="tablas"> Tablas Complejas<br>
+        <input type="checkbox" name="tema" value="formularios"> Formularios
+
+        
+        <p>¿Cómo nos conociste?</p>
+        <select name="origen">
+            <option value="google">Buscador Google</option>
+            <option value="universidad">Universidad</option>
+            <option value="amigo">Recomendación de un amigo</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <br><br>
+        <button type="submit">Enviar Encuesta</button>
+    </form>
+
+</body>
+</html>
